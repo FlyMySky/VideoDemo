@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009"
+                       xmlns:s="library://ns.adobe.com/flex/spark"
+                       applicationComplete="initApp(event)"
+                       showStatusBar="false"
+>
+    <fx:Script><![CDATA[
+        import mx.events.FlexEvent;
+
+        import service.WsSocketService;
+
+        internal var videoSource:String = "assets/video.mp4";
+
+        private function initApp(event:FlexEvent):void {
+//            this.stage.displayState = StageDisplayState.FULL_SCREEN;
+//            videoPlayer.setLayoutBoundsSize(stage.fullScreenWidth, stage.fullScreenHeight);
+            var wsSocketService:WsSocketService = new WsSocketService();
+            wsSocketService.startService(videoPlayer);
+        }
+        ]]></fx:Script>
+    <s:VideoPlayer
+            id="videoPlayer"
+            autoPlay="false"
+            muted="false"
+            source="{videoSource}"
+    />
+</s:WindowedApplication>
