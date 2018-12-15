@@ -56,7 +56,7 @@ public class WsSocketService {
                 videoPlayer.play();
             } else if (parseInt(message) == 2) {
                 videoPlayer.pause();
-                videoPlayer.setVisible(false);
+                videoPlayer.setVisible(true);
             } else if (parseInt(message) == 3) {
                 videoPlayer.stop();
                 videoPlayer.setVisible(false);
