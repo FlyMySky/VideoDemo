@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!-- assets是当前目录 后面是文件名 如果需要播放mp4 直接替换文件名即可-->
+    <videoPath>assets/video.flv</videoPath>
+</config>

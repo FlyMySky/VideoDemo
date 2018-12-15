@@ -8,13 +8,14 @@ import flash.utils.ByteArray;
 
 import mx.events.EffectEvent;
 
+import spark.components.TextArea;
+
 import spark.components.VideoPlayer;
 
 public class WsSocketService {
 
     internal var wsServerSocket:ServerSocket;
     internal var videoPlayer:VideoPlayer;
-    internal var videoSource:String = "assets/video.flv";
 
     public function WsSocketService() {
     }

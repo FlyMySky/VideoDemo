@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700d9b0b-1f69-41cf-92c2-d80642f60213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/float-show.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/video.flv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/skins/FullScreenButtonSkin.mxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/skins/MyPlayerSkin.mxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/skins/PlayPauseButtonSkin.mxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/skins/ScrubBarSkin.mxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/skins/VolumeBarSkin.mxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/video-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/Main.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/Main.swf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VideoDemo/Main.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/assets/video.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.mxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.mxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/video.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/WsSocketService.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/WsSocketService.as" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,51 +33,74 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="as" value="27" />
+          <entry key="as" value="28" />
           <entry key="css" value="2" />
           <entry key="dtd" value="2" />
           <entry key="mxml" value="9" />
           <entry key="png" value="9" />
           <entry key="swf" value="7" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ActionScript" value="27" />
+          <entry key="ActionScript" value="28" />
           <entry key="CSS" value="2" />
           <entry key="DTD" value="2" />
           <entry key="Image" value="9" />
           <entry key="MXML" value="9" />
           <entry key="SWF" value="7" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="as" value="558" />
-          <entry key="mxml" value="690" />
-          <entry key="xml" value="2" />
+          <entry key="as" value="612" />
+          <entry key="mxml" value="753" />
+          <entry key="txt" value="9" />
+          <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ActionScript" value="572" />
-          <entry key="MXML" value="676" />
-          <entry key="XML" value="2" />
+          <entry key="ActionScript" value="627" />
+          <entry key="MXML" value="738" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="XML" value="53" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="600">
+              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
               <folding>
                 <element signature="e#9#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/video-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/WsSocketService.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+              <folding>
+                <element signature="e#18#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/skins/MyPlayerSkin.mxml" />
         <option value="$PROJECT_DIR$/src/service/WsSocketService.as" />
         <option value="$PROJECT_DIR$/src/Main.mxml" />
+        <option value="$PROJECT_DIR$/src/assets/video-config.xml" />
       </list>
     </option>
   </component>
@@ -265,18 +284,26 @@
       <workItem from="1544666124126" duration="119000" />
       <workItem from="1544666268180" duration="11411000" />
       <workItem from="1544778983561" duration="2479000" />
-      <workItem from="1544845632491" duration="11414000" />
+      <workItem from="1544845632491" duration="17144000" />
     </task>
+    <task id="LOCAL-00001" summary="//播放器设置优化">
+      <created>1544869440623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544869440623</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25423000" />
+    <option name="totallyTimeSpent" value="31153000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25813332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25813332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -308,6 +335,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="//播放器设置优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="//播放器设置优化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/flex_sdk_4.6/frameworks/libs/air/airspark.swc!/defaults.css">
@@ -506,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/WsSocketService.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="440">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding>
             <element signature="e#18#44#0" expanded="true" />
           </folding>
@@ -516,11 +547,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="600">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding>
             <element signature="e#9#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/video-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>

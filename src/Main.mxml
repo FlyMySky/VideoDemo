@@ -5,11 +5,17 @@
                        showStatusBar="false"
                        close="onClosed(event)"
 >
+    <fx:Declarations>
+        <fx:Model source="assets/video-config.xml" id="model"/>
+    </fx:Declarations>
     <fx:Script><![CDATA[
         import mx.events.FlexEvent;
+
         import service.WsSocketService;
 
         internal var wsSocketService:WsSocketService;
+
+        //        internal var videoSource:String = "assets/video.flv";
 
         private function initApp(event:FlexEvent):void {
             stage.displayState = StageDisplayState.FULL_SCREEN;
@@ -31,7 +37,7 @@
                 autoPlay="false"
                 muted="false"
                 autoRewind="true"
-                source="assets/video.flv"
+                source="{model.videoPath}"
                 skinClass="skins.MyPlayerSkin"
                 visible="false"
                 width="100%"
