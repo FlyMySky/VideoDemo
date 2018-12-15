@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700d9b0b-1f69-41cf-92c2-d80642f60213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/style/ContainerStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/Main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/Main.swf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VideoDemo/Main.swf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/assets/video.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.mxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.mxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/video-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/video-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/Main-descriptor.xml" afterPath="$PROJECT_DIR$/out/production/VideoDemo/Main-descriptor.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/Main.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/Main.swf" afterPath="$PROJECT_DIR$/out/production/VideoDemo/Main.swf" />
+      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/assets/video.mp4" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,32 +75,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.mxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="91">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
-                <element signature="e#9#36#0" expanded="true" />
+                <marker date="1544881135503" expanded="false" signature="506:567" ph="..." />
+                <marker date="1544881135503" expanded="true" signature="752:1129" ph="{...}" />
+                <marker date="1544881135503" expanded="true" signature="1183:1230" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="video-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/video-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="108">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="WsSocketService.as" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/service/WsSocketService.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="386">
+              <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
               <folding>
                 <element signature="e#18#44#0" expanded="true" />
               </folding>
@@ -131,6 +133,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -141,10 +148,10 @@
         <option value="$PROJECT_DIR$/src/skins/FullScreenButtonSkin.mxml" />
         <option value="$PROJECT_DIR$/src/skins/PlayPauseButtonSkin.mxml" />
         <option value="$PROJECT_DIR$/src/skins/MyPlayerSkin.mxml" />
-        <option value="$PROJECT_DIR$/src/service/WsSocketService.as" />
         <option value="$PROJECT_DIR$/src/assets/video-config.xml" />
         <option value="$PROJECT_DIR$/src/style/ContainerStyle.css" />
         <option value="$PROJECT_DIR$/src/Main.mxml" />
+        <option value="$PROJECT_DIR$/src/service/WsSocketService.as" />
       </list>
     </option>
   </component>
@@ -160,15 +167,27 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -179,29 +198,14 @@
               <item name="VideoDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="VideoDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="VideoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VideoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VideoDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +222,9 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ControlDemo" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -284,10 +290,10 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -303,6 +309,7 @@
       <workItem from="1544666268180" duration="11411000" />
       <workItem from="1544778983561" duration="2479000" />
       <workItem from="1544845632491" duration="17888000" />
+      <workItem from="1544881104581" duration="896000" />
     </task>
     <task id="LOCAL-00001" summary="//播放器设置优化">
       <created>1544869440623</created>
@@ -318,41 +325,62 @@
       <option name="project" value="LOCAL" />
       <updated>1544877455233</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="//添加视频设置">
+      <created>1544881542398</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544881542398</updated>
+    </task>
+    <task id="LOCAL-00004" summary="//设置流程">
+      <created>1544881694577</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544881694577</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31897000" />
+    <option name="totallyTimeSpent" value="32793000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25813332" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20738328" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3296" />
-      <window_info anchor="right" id="MXML Preview" order="7" weight="0.3296" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20636792" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="MXML Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,27 +391,63 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//播放器设置优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="//播放器设置优化" />
+    <MESSAGE value="//添加视频设置" />
+    <MESSAGE value="//设置流程" />
+    <option name="LAST_COMMIT_MESSAGE" value="//设置流程" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1544881135503" expanded="false" signature="506:567" ph="..." />
+            <marker date="1544881135503" expanded="true" signature="752:1129" ph="{...}" />
+            <marker date="1544881135503" expanded="true" signature="1183:1230" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/video-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/WsSocketService.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="e#18#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/flex_sdk_4.6/frameworks/libs/air/airspark.swc!/defaults.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/airspark/src/spark/components/WindowedApplication.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="2140" column="63" selection-start-line="2140" selection-start-column="63" selection-end-line="2140" selection-end-column="63" />
+          <caret line="2140" column="63" lean-forward="false" selection-start-line="2140" selection-start-column="63" selection-end-line="2140" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/mx/src/mx/controls/Alert.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="553" column="27" selection-start-line="553" selection-start-column="27" selection-end-line="553" selection-end-column="27" />
+          <caret line="553" column="27" lean-forward="false" selection-start-line="553" selection-start-column="27" selection-end-line="553" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -397,21 +461,21 @@
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/supportClasses/Skin.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/framework/src/mx/core/UIComponent.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="11114" column="20" selection-start-line="11114" selection-start-column="20" selection-end-line="11114" selection-end-column="20" />
+          <caret line="11114" column="20" lean-forward="false" selection-start-line="11114" selection-start-column="20" selection-end-line="11114" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/skins/SparkSkin.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4882">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -419,7 +483,7 @@
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/supportClasses/Range.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="246" column="50" selection-start-line="246" selection-start-column="50" selection-end-line="246" selection-end-column="50" />
+          <caret line="246" column="50" lean-forward="false" selection-start-line="246" selection-start-column="50" selection-end-line="246" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -439,36 +503,17 @@
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/air/ApplicationUpdater/src/ApplicationUpdater/air/update/utils/NetUtils.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103" />
+        <state relative-caret-position="-103">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/osmf/src/org/osmf/net/NetClient.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3828">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/skins/ScrubBarSkin.mxml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/bar_background.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/Ellipse 1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/play.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/Rounded Rectangle 2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/Rectangle 2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/full-screen.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/supportClasses/ToggleButtonBase.as">
       <provider selected="true" editor-type-id="text-editor">
@@ -480,26 +525,23 @@
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/ToggleButton.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="77" column="43" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="43" />
+          <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/skins/SparkButtonSkin.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-902">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/skins/spark/ToggleButtonSkin.mxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="87" column="52" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="52" />
+          <caret line="87" column="52" lean-forward="false" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="52" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/Graphic9.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/skins/FullScreenButtonSkin.mxml">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,7 +553,7 @@
     <entry file="file://$PROJECT_DIR$/src/skins/PlayPauseButtonSkin.mxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -526,16 +568,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2750">
           <caret line="110" column="55" lean-forward="true" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="55" />
-          <folding>
-            <element signature="e#4989#5084#0" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/flex_sdk_4.6/frameworks/libs/air/airglobal.swc!/library.swf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="6671" column="25" selection-start-line="6671" selection-start-column="25" selection-end-line="6671" selection-end-column="25" />
+          <caret line="6671" column="25" lean-forward="false" selection-start-line="6671" selection-start-column="25" selection-end-line="6671" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -549,17 +589,7 @@
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/VideoPlayer.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11525">
-          <caret line="501" column="13" selection-start-line="501" selection-start-column="13" selection-end-line="501" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/WsSocketService.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding>
-            <element signature="e#18#44#0" expanded="true" />
-          </folding>
+          <caret line="501" column="13" lean-forward="false" selection-start-line="501" selection-start-column="13" selection-end-line="501" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -572,13 +602,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/video-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="108">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/float-show.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/ContainerStyle.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -589,10 +617,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="91">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <element signature="e#9#36#0" expanded="true" />
+            <marker date="1544881135503" expanded="false" signature="506:567" ph="..." />
+            <marker date="1544881135503" expanded="true" signature="752:1129" ph="{...}" />
+            <marker date="1544881135503" expanded="true" signature="1183:1230" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/WsSocketService.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+          <folding>
+            <element signature="e#18#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
