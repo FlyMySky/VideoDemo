@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:SparkSkin xmlns:fx="http://ns.adobe.com/mxml/2009"
+             xmlns:s="library://ns.adobe.com/flex/spark"
+             xmlns:fb="http://ns.adobe.com/flashbuilder/2009"
+>
+
+    <fx:Metadata>
+        [HostComponent("spark.components.VideoPlayer")]
+    </fx:Metadata>
+    <fx:Script fb:purpose="styling">
+        <![CDATA[
+        /* Define the skin elements that should not be colorized.
+        定义了皮肤元素不应该被彩色化*/
+        static private const exclusions:Array = ["videoDisplay", "playPauseButton", "scrubBar",
+            "currentTimeDisplay", "timeDivider", "durationDisplay",
+            "volumeBar", "fullScreenButton"];
+
+        /**
+         * @private
+         */
+        override protected function initializationComplete():void
+        {
+            useChromeColor = true;
+            super.initializationComplete();
+        }
+
+        /**
+         * @private
+         */
+        override public function get colorizeExclusions():Array
+        {
+            return exclusions;
+        }
+
+        /**
+         * @private
+         */
+        override protected function updateDisplayList(unscaledWidth:Number, unscaledHeight:Number):void
+        {
+//            dropShadow.visible = getStyle("dropShadowVisible");
+
+            super.updateDisplayList(unscaledWidth, unscaledHeight);
+        }
+        ]]>
+
+    </fx:Script>
+    <!-- states -->
+    <s:states>
+        <s:State name="uninitialized" stateGroups="uninitializedStates, normalStates" />
+        <s:State name="loading" stateGroups="loadingStates, normalStates" />
+        <s:State name="ready" stateGroups="readyStates, normalStates" />
+        <s:State name="playing" stateGroups="playingStates, normalStates" />
+        <s:State name="paused" stateGroups="pausedStates, normalStates" />
+        <s:State name="buffering" stateGroups="bufferingStates, normalStates" />
+        <s:State name="playbackError" stateGroups="playbackErrorStates, normalStates" />
+        <s:State name="disabled" stateGroups="disabledStates, normalStates"/>
+        <s:State name="uninitializedAndFullScreen" stateGroups="uninitializedStates, fullScreenStates" />
+        <s:State name="loadingAndFullScreen" stateGroups="loadingStates, fullScreenStates" />
+        <s:State name="readyAndFullScreen" stateGroups="readyStates, fullScreenStates" />
+        <s:State name="playingAndFullScreen" stateGroups="playingStates, fullScreenStates" />
+        <s:State name="pausedAndFullScreen" stateGroups="pausedStates, fullScreenStates" />
+        <s:State name="bufferingAndFullScreen" stateGroups="bufferingStates, fullScreenStates" />
+        <s:State name="playbackErrorAndFullScreen" stateGroups="playbackErrorStates, fullScreenStates" />
+        <s:State name="disabledAndFullScreen" stateGroups="disabledStates, fullScreenStates"/>
+    </s:states>
+
+
+    <!-- drop shadow 阴影-->
+    <!--- @private
+ 此类通常用于优化投影。如果要对其边缘位于像素边界上的 rectangularly-shaped 对象应用投影，则应使用此类
+ blurX  水平模糊量
+ blurY  垂直模糊量
+ alpha  透明度
+ distance  阴影的偏移距离，以像素为单位。
+ angle    斜角的角度。
+ color   光晕颜色。
+ excludeFrom  从对应的属性中删除该组件
+    -->
+    <!--<s:RectangularDropShadow-->
+            <!--id="dropShadow"-->
+            <!--blurX="17"-->
+            <!--blurY="17"-->
+            <!--alpha="0.32"-->
+            <!--distance="4"-->
+            <!--angle="90"-->
+            <!--color="#131313"-->
+            <!--left="0"-->
+            <!--top="0"-->
+            <!--right="0"-->
+            <!--bottom="0"-->
+            <!--excludeFrom="fullScreenStates"/>-->
+
+    <!--- Video and player controls are clipped if they exceed the size of the
+ component, but the drop shadow above is not clipped and sizes to the component.
+ We also set verticalScrollPosition so that when we do clip, rather than clipping
+ off the bottom first, we clip off the top fist.  This is so the player controls
+ are still visible when we start clipping.
+ 视频和播放器控件在超过组件的大小被剪切，
+ 但上方的下拉阴影未裁剪和尺寸的组件。
+ 我们还设置verticalScrollPosition的，
+ 这样，当我们做剪辑，而不是先剪切断底，
+ 我们剪掉顶部拳头。这是为了让玩家控制仍然可见，
+ 当我们开始裁剪。-->
+
+    <!-- clipAndEnableScrolling  如果是true，则将超出范围的children裁掉不显示出来
+    -->
+    <s:Group id="clippedGroup" clipAndEnableScrolling="true" left="0" top="0" right="0" bottom="0"
+             >
+        <!--verticalScrollPosition="{Math.max(0, 184-clippedGroup.height)}"-->
+        <!-- 有用于视频和控制的最小尺寸。如果我们去下面，我们被剪切。 -->
+        <s:Group left="0" right="0" top="0" bottom="0">
+
+            <!-- background when the videoDisplay doesn't fill its whole spot
+            背景时，当VideoDisplay没有填充整个点-->
+            <s:Rect bottom="0" left="0" right="0" top="0">
+                <s:fill>
+                    <!--蓝色背景-->
+                    <s:SolidColor color="0x000000" />
+                </s:fill>
+            </s:Rect>
+
+            <!--- @copy spark.components.VideoPlayer#videoDisplay
+         bottom 距离下边24像素控制面板的高度是24像素-->
+            <s:VideoDisplay
+                    id="videoDisplay"
+                    bottom="0"
+                    left="0"
+                    right="0"
+                    top="0"
+                    bottom.fullScreenStates="0" />
+
+            <!-- video player controls
+            bottom.fullScreenStates全屏时距离下边是150像素
+            控制面板-->
+            <!--<s:Group left="0" right="0" height="50" bottom="0" bottom.fullScreenStates="150">-->
+
+
+
+
+                <!--&lt;!&ndash; actual controls with a maxWidth in non-fullScreen mode 在非全屏模式了maxWidth实际控制 &ndash;&gt;-->
+                <!--&lt;!&ndash;- @copy spark.components.VideoPlayer#playerControls-->
+             <!--组件区域控制面板&ndash;&gt;-->
+                <!--<s:Group-->
+                        <!--bottom="0"-->
+                        <!--top="0"-->
+                        <!--horizontalCenter="0"-->
+                        <!--left="0"-->
+                        <!--right="0"-->
+                        <!--maxWidth.fullScreenStates="755"-->
+                        <!--id="playerControls"  >-->
+
+
+
+
+                    <!--<s:Rect bottom="0" left="0" right="0" top="0"-->
+                    <!--&gt;-->
+                        <!--<s:fill>-->
+                            <!--&lt;!&ndash;灰色背景&ndash;&gt;-->
+                            <!--<s:SolidColor color="0x444953" />-->
+                        <!--</s:fill>-->
+                    <!--</s:Rect>-->
+
+
+
+                    <!--&lt;!&ndash;- @copy spark.components.VideoPlayer#playPauseButton-->
+                 <!--到这里创建外观声明-->
+                 <!--playPauseButton:ToggleButtonBase  暂停/播放组件-->
+                 <!--focusIn 显示对象获得焦点后调度。  事件-->
+                 <!--focusOut 显示对象失去焦点后调度。 事件-->
+                    <!--&ndash;&gt;-->
+                    <!--<s:Group width="50" height="50" left="0" bottom="0">-->
+                        <!--<s:ToggleButton-->
+                                <!--id="playPauseButton"-->
+                                <!--verticalCenter="0"-->
+                                <!--horizontalCenter="0"-->
+                                <!--skinClass="skins.PlayPauseButtonSkin"-->
+                                <!--layoutDirection="ltr"-->
+                                <!--focusIn="event.target.depth=1" focusOut="event.target.depth=0" />-->
+                    <!--</s:Group>-->
+
+                    <!--&lt;!&ndash; scrub bar + currentTime/duration in a HorizontalLayout-->
+                    <!--scrub bar+ currentTime的/持续时间在一个HorizontalLayout&ndash;&gt;-->
+                    <!--<s:Group left="50" right="100" height="50" bottom="0">-->
+                        <!--<s:layout>-->
+                            <!--<s:HorizontalLayout verticalAlign="middle" gap="1" />-->
+                        <!--</s:layout>-->
+
+
+                        <!--&lt;!&ndash;- @copy spark.components.VideoPlayer#scrubBar &ndash;&gt;-->
+                        <!--<s:ScrubBar id="scrubBar"-->
+                                    <!--left="0"-->
+                                    <!--right="0"-->
+                                    <!--liveDragging="true"-->
+                                    <!--width="100%"-->
+                                    <!--skinClass="skins.ScrubBarSkin"-->
+                        <!--/>-->
+
+                        <!--&lt;!&ndash; spacer 垫片&ndash;&gt;-->
+                        <!--<s:Rect width="8" height="1" />-->
+
+                        <!--&lt;!&ndash;- @copy spark.components.VideoPlayer#currentTimeDisplay-->
+                     <!--可选外观部件，用于显示 codecurrentTime 的当前值。 &ndash;&gt;-->
+                        <!--<s:Label id="currentTimeDisplay" color="0xFFFFFF"-->
+                                 <!--fontFamily="微软雅黑" fontSize="13"-->
+                                 <!--fontWeight="bold"-->
+                                 <!--verticalAlign="middle"/>-->
+
+                        <!--&lt;!&ndash;- @private &ndash;&gt;-->
+                        <!--<s:Label id="timeDivider" text="/" color="0xFFFFFF" verticalAlign="middle"-->
+                        <!--/>-->
+
+                        <!--&lt;!&ndash;- @copy spark.components.VideoPlayer#durationDisplay-->
+                     <!--要显示 duration 的可选外观部件。&ndash;&gt;-->
+                        <!--<s:Label id="durationDisplay"-->
+                                 <!--color="0xFFFFFF"-->
+                                 <!--fontFamily="微软雅黑" fontSize="13"-->
+                                 <!--fontWeight="bold"-->
+                                 <!--verticalAlign="middle"/>-->
+
+
+                    <!--</s:Group>-->
+
+                    <!--&lt;!&ndash;- @copy spark.components.VideoPlayer#volumeBar-->
+                 <!--音量按钮&ndash;&gt;-->
+                    <!--<s:Group right="50" height="50" width="50">-->
+                        <!--<s:VolumeBar id="volumeBar" snapInterval=".01" stepSize=".01" liveDragging="true"-->
+                                     <!--horizontalCenter="0"-->
+                                     <!--verticalCenter="0"-->
+                                     <!--layoutDirection="ltr"-->
+                                     <!--skinClass="skins.VolumeBarSkin"-->
+                                     <!--focusIn="event.target.depth=1" focusOut="event.target.depth=0"-->
+                        <!--/>-->
+                    <!--</s:Group>-->
+                    <!--&lt;!&ndash;- @copy spark.components.VideoPlayer#fullScreenButton-->
+                 <!--全屏按钮&ndash;&gt;-->
+                    <!--<s:Group  width="50" height="50" right="0">-->
+                        <!--<s:Button id="fullScreenButton" right="0" bottom="0" label="Fullscreen"-->
+                                  <!--skinClass="skins.FullScreenButtonSkin"-->
+                                  <!--focusIn="event.target.depth=1" focusOut="event.target.depth=0"-->
+                                  <!--verticalCenter="0"-->
+                                  <!--horizontalCenter="0"-->
+                        <!--/>-->
+                    <!--</s:Group>-->
+                <!--</s:Group>-->
+            <!--</s:Group>-->
+        </s:Group>
+    </s:Group>
+</s:SparkSkin>

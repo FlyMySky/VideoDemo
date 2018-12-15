@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AirPackageProjectParameters">
-    <option name="desktopPackageType" value="native installer (*.exe)" />
+    <option name="desktopPackageType" value="captive runtime bundle" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700d9b0b-1f69-41cf-92c2-d80642f60213" name="Default Changelist" comment="" />
+    <list default="true" id="700d9b0b-1f69-41cf-92c2-d80642f60213" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/float-show.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/video.flv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/skins/FullScreenButtonSkin.mxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/skins/MyPlayerSkin.mxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/skins/PlayPauseButtonSkin.mxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/skins/ScrubBarSkin.mxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/skins/VolumeBarSkin.mxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VideoDemo/Main.swf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VideoDemo/Main.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.mxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.mxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/WsSocketService.as" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/WsSocketService.as" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,44 +29,46 @@
     <session id="1126667664">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="as" value="17" />
+          <entry key="as" value="27" />
           <entry key="css" value="2" />
-          <entry key="dtd" value="1" />
-          <entry key="mxml" value="2" />
-          <entry key="swf" value="6" />
+          <entry key="dtd" value="2" />
+          <entry key="mxml" value="9" />
+          <entry key="png" value="9" />
+          <entry key="swf" value="7" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ActionScript" value="17" />
+          <entry key="ActionScript" value="27" />
           <entry key="CSS" value="2" />
-          <entry key="DTD" value="1" />
-          <entry key="MXML" value="2" />
-          <entry key="SWF" value="6" />
+          <entry key="DTD" value="2" />
+          <entry key="Image" value="9" />
+          <entry key="MXML" value="9" />
+          <entry key="SWF" value="7" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="as" value="468" />
-          <entry key="mxml" value="389" />
+          <entry key="as" value="558" />
+          <entry key="mxml" value="690" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ActionScript" value="478" />
-          <entry key="MXML" value="379" />
+          <entry key="ActionScript" value="572" />
+          <entry key="MXML" value="676" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -64,19 +79,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/WsSocketService.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="496">
+              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
-                <element signature="e#18#52#0" expanded="true" />
+                <element signature="e#9#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,13 +103,22 @@
       <find>fullScreenButton</find>
       <find>fullScreenButton_clickHandler</find>
       <find>control</find>
+      <find>overStates</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/out/production/VideoDemo/Main-descriptor.xml" />
         <option value="$PROJECT_DIR$/src/skins/VideoSkin.mxml" />
+        <option value="$PROJECT_DIR$/src/skins/ScrubBarSkin.mxml" />
+        <option value="$PROJECT_DIR$/src/skins/VolumeBarSkin.mxml" />
+        <option value="$PROJECT_DIR$/src/skins/FullScreenButtonSkin.mxml" />
+        <option value="$PROJECT_DIR$/src/skins/PlayPauseButtonSkin.mxml" />
+        <option value="$PROJECT_DIR$/src/skins/MyPlayerSkin.mxml" />
         <option value="$PROJECT_DIR$/src/service/WsSocketService.as" />
         <option value="$PROJECT_DIR$/src/Main.mxml" />
       </list>
@@ -115,12 +130,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -147,7 +169,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Net&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="ToggleButtonSkin&#9;null&#9;null&#10;Net&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="fud_pw_h" value="1040" />
@@ -156,11 +178,14 @@
     <property name="fud_pw_y" value="0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateFlexSkinDialog.HOST_COMPONENT_RECENT_KEY">
-      <recent name="spark.components.VideoPlayer" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\VideoDemo\src\assets" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="service" />
@@ -168,8 +193,12 @@
     <key name="CreateFlexSkinDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="skins" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\VideoDemo\src\assets" />
+    <key name="CreateFlexSkinDialog.HOST_COMPONENT_RECENT_KEY">
+      <recent name="spark.components.Button" />
+      <recent name="spark.components.mediaClasses.VolumeBar" />
+      <recent name="spark.components.mediaClasses.ScrubBar" />
+      <recent name="spark.components.ToggleButton" />
+      <recent name="spark.components.VideoPlayer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,25 +264,26 @@
       <updated>1544666118998</updated>
       <workItem from="1544666124126" duration="119000" />
       <workItem from="1544666268180" duration="11411000" />
-      <workItem from="1544778983561" duration="1547000" />
+      <workItem from="1544778983561" duration="2479000" />
+      <workItem from="1544845632491" duration="11414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13077000" />
+    <option name="totallyTimeSpent" value="25423000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25546667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25813332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20738328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,15 +292,15 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="MXML Preview" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3296" />
+      <window_info anchor="right" id="MXML Preview" order="7" weight="0.3296" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,13 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/KnownMetaData.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="89" column="23" lean-forward="true" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/skins/SparkSkin.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4882">
@@ -337,13 +360,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/skins/VideoSkin.mxml" />
-    <entry file="jar://D:/flex_sdk_4.6/frameworks/libs/air/airglobal.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="9564" column="42" lean-forward="true" selection-start-line="9564" selection-start-column="42" selection-end-line="9564" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/supportClasses/Range.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -358,13 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/VideoPlayer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="1487" column="24" selection-start-line="1487" selection-start-column="24" selection-end-line="1487" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/flex_sdk_4.6/frameworks/libs/mx/mx.swc!/defaults-3.0.0.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37525">
@@ -372,23 +381,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/WsSocketService.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#18#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/air/ApplicationUpdater/src/ApplicationUpdater/air/update/utils/NetUtils.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-103" />
       </provider>
     </entry>
     <entry file="file://D:/flex_sdk_4.6/frameworks/projects/osmf/src/org/osmf/net/NetClient.as">
@@ -398,19 +393,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/skins/ScrubBarSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/bar_background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/Ellipse 1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/play.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/Rounded Rectangle 2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/Rectangle 2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/MyPlayer/full-screen.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/supportClasses/ToggleButtonBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2950">
+          <caret line="131" column="19" lean-forward="true" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/ToggleButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/skins/SparkButtonSkin.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-902">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/skins/spark/ToggleButtonSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="87" column="52" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/Graphic9.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skins/FullScreenButtonSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skins/PlayPauseButtonSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skins/VolumeBarSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skins/MyPlayerSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2750">
+          <caret line="110" column="55" lean-forward="true" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="55" />
+          <folding>
+            <element signature="e#4989#5084#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/flex_sdk_4.6/frameworks/libs/air/airglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="6671" column="25" selection-start-line="6671" selection-start-column="25" selection-end-line="6671" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/KnownMetaData.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/VideoDisplay.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="622" column="6" lean-forward="true" selection-start-line="622" selection-start-column="6" selection-end-line="622" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/flex_sdk_4.6/frameworks/projects/spark/src/spark/components/VideoPlayer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11525">
+          <caret line="501" column="13" selection-start-line="501" selection-start-column="13" selection-end-line="501" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/WsSocketService.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#18#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="496">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#9#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>flex_sdk_4.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>VideoDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>AIRSDK_Compiler</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

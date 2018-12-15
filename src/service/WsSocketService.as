@@ -1,9 +1,12 @@
 package service {
+import flash.events.Event;
 import flash.events.ProgressEvent;
 import flash.events.ServerSocketConnectEvent;
 import flash.net.ServerSocket;
 import flash.net.Socket;
 import flash.utils.ByteArray;
+
+import mx.events.EffectEvent;
 
 import spark.components.VideoPlayer;
 
@@ -11,6 +14,7 @@ public class WsSocketService {
 
     internal var wsServerSocket:ServerSocket;
     internal var videoPlayer:VideoPlayer;
+    internal var videoSource:String = "assets/video.flv";
 
     public function WsSocketService() {
     }
@@ -26,8 +30,17 @@ public class WsSocketService {
 
     private function clientHandler(event:ServerSocketConnectEvent):void {
         var socket:Socket = event.socket;
-        socket.addEventListener(ProgressEvent.SOCKET_DATA, socketDataHandler)
-        trace("connect success")
+        socket.addEventListener(ProgressEvent.SOCKET_DATA, socketDataHandler);
+        socket.addEventListener(Event.CLOSE, socketClosed);
+        trace("connect success");
+        videoPlayer.addEventListener(EffectEvent.EFFECT_STOP, videoStop)
+    }
+
+    private function videoStop(event:EffectEvent):void {
+    }
+
+    private function socketClosed(event:Event):void {
+        trace("connect socketClosed")
     }
 
     private function socketDataHandler(event:ProgressEvent):void {
@@ -38,16 +51,28 @@ public class WsSocketService {
             var message:String = socketBytes.readUTFBytes(socketBytes.bytesAvailable);
             trace(message);
             if (parseInt(message) == 1) {
-                videoPlayer.play()
+                videoPlayer.setVisible(true);
+                videoPlayer.play();
             } else if (parseInt(message) == 2) {
-                videoPlayer.pause()
+                videoPlayer.pause();
+                videoPlayer.setVisible(false);
             } else if (parseInt(message) == 3) {
-                videoPlayer.stop()
+                videoPlayer.stop();
+                videoPlayer.setVisible(false);
             } else if (parseInt(message) == 4) {
+                videoPlayer.setVisible(true);
                 videoPlayer.volume += 0.1;
             } else if (parseInt(message) == 5) {
+                videoPlayer.setVisible(true);
                 videoPlayer.volume -= 0.1;
             }
+        }
+    }
+
+    public function close():void {
+        if (wsServerSocket != null) {
+            wsServerSocket.close()
+            trace("wsServerSocket close")
         }
     }
 }
